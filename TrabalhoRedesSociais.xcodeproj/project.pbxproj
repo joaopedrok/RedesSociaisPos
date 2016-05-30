@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01AAB7E793290BC051CB6034 /* libPods-TrabalhoRedesSociais.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 18401A9215B805284B46D984 /* libPods-TrabalhoRedesSociais.a */; };
+		CF1505F21CFC509D00B8B84E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1505F11CFC509D00B8B84E /* main.m */; };
+		CF1505F51CFC509D00B8B84E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1505F41CFC509D00B8B84E /* AppDelegate.m */; };
+		CF1505F81CFC509D00B8B84E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1505F71CFC509D00B8B84E /* ViewController.m */; };
+		CF1505FB1CFC509D00B8B84E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF1505F91CFC509D00B8B84E /* Main.storyboard */; };
+		CF1505FD1CFC509D00B8B84E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF1505FC1CFC509D00B8B84E /* Assets.xcassets */; };
+		CF1506001CFC509D00B8B84E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF1505FE1CFC509D00B8B84E /* LaunchScreen.storyboard */; };
+		CFA5E1531CFD015A003F87DC /* TwitterDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFA5E1521CFD015A003F87DC /* TwitterDataViewController.m */; };
+		CFD5FAC71CFC66A5008A6C50 /* GooglePlusDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFD5FAC61CFC66A5008A6C50 /* GooglePlusDataViewController.m */; };
+		CFF3450A1CFC5AE100D9220F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CFF345091CFC5AE100D9220F /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		18401A9215B805284B46D984 /* libPods-TrabalhoRedesSociais.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TrabalhoRedesSociais.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E7C4D6E15081F4B374CC309 /* Pods-TrabalhoRedesSociais.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrabalhoRedesSociais.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TrabalhoRedesSociais/Pods-TrabalhoRedesSociais.debug.xcconfig"; sourceTree = "<group>"; };
+		CF1505ED1CFC509D00B8B84E /* TrabalhoRedesSociais.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrabalhoRedesSociais.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF1505F11CFC509D00B8B84E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CF1505F31CFC509D00B8B84E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CF1505F41CFC509D00B8B84E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CF1505F61CFC509D00B8B84E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CF1505F71CFC509D00B8B84E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CF1505FA1CFC509D00B8B84E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF1505FC1CFC509D00B8B84E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF1505FF1CFC509D00B8B84E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF1506011CFC509D00B8B84E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFA5E1511CFD015A003F87DC /* TwitterDataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwitterDataViewController.h; sourceTree = "<group>"; };
+		CFA5E1521CFD015A003F87DC /* TwitterDataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwitterDataViewController.m; sourceTree = "<group>"; };
+		CFC734CC1CFCECDA00CEB4A8 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		CFD5FAC51CFC66A5008A6C50 /* GooglePlusDataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GooglePlusDataViewController.h; sourceTree = "<group>"; };
+		CFD5FAC61CFC66A5008A6C50 /* GooglePlusDataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GooglePlusDataViewController.m; sourceTree = "<group>"; };
+		CFF345091CFC5AE100D9220F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E1234C25B7CC13337C631961 /* Pods-TrabalhoRedesSociais.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrabalhoRedesSociais.release.xcconfig"; path = "Pods/Target Support Files/Pods-TrabalhoRedesSociais/Pods-TrabalhoRedesSociais.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF1505EA1CFC509D00B8B84E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01AAB7E793290BC051CB6034 /* libPods-TrabalhoRedesSociais.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		46F6283FAF002395C94B7B66 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8E7C4D6E15081F4B374CC309 /* Pods-TrabalhoRedesSociais.debug.xcconfig */,
+				E1234C25B7CC13337C631961 /* Pods-TrabalhoRedesSociais.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CEB2A4F9BF1CF31A7CDC98A6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CFC734CC1CFCECDA00CEB4A8 /* Twitter.framework */,
+				18401A9215B805284B46D984 /* libPods-TrabalhoRedesSociais.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF1505E41CFC509D00B8B84E = {
+			isa = PBXGroup;
+			children = (
+				CFF345091CFC5AE100D9220F /* GoogleService-Info.plist */,
+				CF1505EF1CFC509D00B8B84E /* TrabalhoRedesSociais */,
+				CF1505EE1CFC509D00B8B84E /* Products */,
+				46F6283FAF002395C94B7B66 /* Pods */,
+				CEB2A4F9BF1CF31A7CDC98A6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CF1505EE1CFC509D00B8B84E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF1505ED1CFC509D00B8B84E /* TrabalhoRedesSociais.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1505EF1CFC509D00B8B84E /* TrabalhoRedesSociais */ = {
+			isa = PBXGroup;
+			children = (
+				CF1505F31CFC509D00B8B84E /* AppDelegate.h */,
+				CF1505F41CFC509D00B8B84E /* AppDelegate.m */,
+				CF1505F61CFC509D00B8B84E /* ViewController.h */,
+				CF1505F71CFC509D00B8B84E /* ViewController.m */,
+				CFD5FAC51CFC66A5008A6C50 /* GooglePlusDataViewController.h */,
+				CFD5FAC61CFC66A5008A6C50 /* GooglePlusDataViewController.m */,
+				CFA5E1511CFD015A003F87DC /* TwitterDataViewController.h */,
+				CFA5E1521CFD015A003F87DC /* TwitterDataViewController.m */,
+				CF1505F91CFC509D00B8B84E /* Main.storyboard */,
+				CF1505FC1CFC509D00B8B84E /* Assets.xcassets */,
+				CF1505FE1CFC509D00B8B84E /* LaunchScreen.storyboard */,
+				CF1506011CFC509D00B8B84E /* Info.plist */,
+				CF1505F01CFC509D00B8B84E /* Supporting Files */,
+			);
+			path = TrabalhoRedesSociais;
+			sourceTree = "<group>";
+		};
+		CF1505F01CFC509D00B8B84E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF1505F11CFC509D00B8B84E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF1505EC1CFC509D00B8B84E /* TrabalhoRedesSociais */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF1506041CFC509D00B8B84E /* Build configuration list for PBXNativeTarget "TrabalhoRedesSociais" */;
+			buildPhases = (
+				51DBA27A2E46BF3F4AC1B974 /* Check Pods Manifest.lock */,
+				CF1505E91CFC509D00B8B84E /* Sources */,
+				CF1505EA1CFC509D00B8B84E /* Frameworks */,
+				CF1505EB1CFC509D00B8B84E /* Resources */,
+				2FDF0BFD7E61F5B47D6B7FDA /* Embed Pods Frameworks */,
+				A3847ED0BA667E2A9A6BBBAD /* Copy Pods Resources */,
+				CFC734D11CFCEE5200CEB4A8 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TrabalhoRedesSociais;
+			productName = TrabalhoRedesSociais;
+			productReference = CF1505ED1CFC509D00B8B84E /* TrabalhoRedesSociais.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF1505E51CFC509D00B8B84E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = JoaoWilker;
+				TargetAttributes = {
+					CF1505EC1CFC509D00B8B84E = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = CF1505E81CFC509D00B8B84E /* Build configuration list for PBXProject "TrabalhoRedesSociais" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1505E41CFC509D00B8B84E;
+			productRefGroup = CF1505EE1CFC509D00B8B84E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF1505EC1CFC509D00B8B84E /* TrabalhoRedesSociais */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF1505EB1CFC509D00B8B84E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF1506001CFC509D00B8B84E /* LaunchScreen.storyboard in Resources */,
+				CFF3450A1CFC5AE100D9220F /* GoogleService-Info.plist in Resources */,
+				CF1505FD1CFC509D00B8B84E /* Assets.xcassets in Resources */,
+				CF1505FB1CFC509D00B8B84E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2FDF0BFD7E61F5B47D6B7FDA /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TrabalhoRedesSociais/Pods-TrabalhoRedesSociais-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		51DBA27A2E46BF3F4AC1B974 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A3847ED0BA667E2A9A6BBBAD /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TrabalhoRedesSociais/Pods-TrabalhoRedesSociais-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CFC734D11CFCEE5200CEB4A8 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" bfefc68fa0c3135d1bfeee48edee58d9d03dd42b dda58b0747dcf2978d50bf98e6662e31e14412094663cdc1115eb5be592b6716";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF1505E91CFC509D00B8B84E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFA5E1531CFD015A003F87DC /* TwitterDataViewController.m in Sources */,
+				CF1505F81CFC509D00B8B84E /* ViewController.m in Sources */,
+				CF1505F51CFC509D00B8B84E /* AppDelegate.m in Sources */,
+				CF1505F21CFC509D00B8B84E /* main.m in Sources */,
+				CFD5FAC71CFC66A5008A6C50 /* GooglePlusDataViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CF1505F91CFC509D00B8B84E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF1505FA1CFC509D00B8B84E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CF1505FE1CFC509D00B8B84E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF1505FF1CFC509D00B8B84E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF1506021CFC509D00B8B84E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF1506031CFC509D00B8B84E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF1506051CFC509D00B8B84E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E7C4D6E15081F4B374CC309 /* Pods-TrabalhoRedesSociais.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = TrabalhoRedesSociais/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.JoaoWilker.TrabalhoRedesSociais;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CF1506061CFC509D00B8B84E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1234C25B7CC13337C631961 /* Pods-TrabalhoRedesSociais.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = TrabalhoRedesSociais/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.JoaoWilker.TrabalhoRedesSociais;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF1505E81CFC509D00B8B84E /* Build configuration list for PBXProject "TrabalhoRedesSociais" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF1506021CFC509D00B8B84E /* Debug */,
+				CF1506031CFC509D00B8B84E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF1506041CFC509D00B8B84E /* Build configuration list for PBXNativeTarget "TrabalhoRedesSociais" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF1506051CFC509D00B8B84E /* Debug */,
+				CF1506061CFC509D00B8B84E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF1505E51CFC509D00B8B84E /* Project object */;
+}
